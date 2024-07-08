@@ -1,0 +1,89 @@
+.UploudFile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  /* Increase the width of the uploader container */
+  padding: 40px;
+  /* Add padding for spacing */
+  margin-top: 40px;
+  /* Add space from the top of the page */
+  box-shadow: 0 0 10px rgb(0 0 0 / 11%);
+  /* Add shadow */
+
+  .camera-button {
+    border-radius: 50%;
+    border: 1px solid #4CAF50;
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+    svg {
+      height: 50px;
+      width: 50px;
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  .reset {
+    margin-top: 30px;
+    /* Increase the margin around the upload button */
+    padding: 15px 40px;
+    /* Increase the padding for more space */
+    background-color: #4CAF50;
+    ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #4CAF50;
+      ;
+    }
+  }
+
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000000;
+  }
+
+  .uploaded-image {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .loader {
+    margin-top: 20px;
+  }
+
+
+  .upload-button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color: #4CAF50;
+    ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #4CAF50;
+      ;
+    }
+  }
+}

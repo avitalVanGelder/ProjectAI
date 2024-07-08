@@ -1,0 +1,21 @@
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end; 
+    bottom: 0; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    background: white; 
+  }
+  
+  .garbage-image {
+    margin: 10px; 
+  }
+
+  
+  .garbage-image img {
+    max-width: 100px; 
+    height: auto;
+  }
+  

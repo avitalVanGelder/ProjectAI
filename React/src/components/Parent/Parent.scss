@@ -1,0 +1,19 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0; 
+  }
+  
+  .garbage-image {
+    margin: 10px;
+  }
+  
+  .garbage-image img {
+    max-width: 100px;
+    height: auto;
+  }
+  
