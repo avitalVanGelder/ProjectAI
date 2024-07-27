@@ -1,5 +1,5 @@
 Hi to use with this project you will need to download and follow step by step:
-1. Open Visual Studio Code and run in the terminal git ignore https://github.com/avitalVanGelder/ProjectAI.git
+1. Open Visual Studio Code and run in the terminal "git ignore https://github.com/avitalVanGelder/ProjectAI.git"
 2. Close Visual Studio Code and open only the React folder through Visual Studio Code by the command npm start
 3. Open the Python1 folder via pyCharm and run the FlaskServer file
 4. After you have opened and run them, our application will open in your browser as you see in this picture:
